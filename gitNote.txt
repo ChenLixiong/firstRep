@@ -7,4 +7,9 @@ git init 初始化仓库
 git status 查看当前状态
 git add [文件名.后缀] 添加文件到本地仓库
 git commit -m "xxx" 将文件提交到仓库
+git diff [文件名.后缀] 查看修改的内容
+git log  查看提交的你是记录
+git log --pretty=oneline 将日志信息行化
 
+
+git reset --hard HEAD^ 回退到上一个版本
