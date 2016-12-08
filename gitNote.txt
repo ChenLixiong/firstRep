@@ -1,0 +1,10 @@
+git笔记：
+git config --global user.name [用户名] 配置全局用户名
+git config --global email [电子邮箱] 配置电子邮箱
+mkdir [文件夹名] 创建文件夹
+pwd 查看当前所在目录
+git init 初始化仓库
+git status 查看当前状态
+git add [文件名.后缀] 添加文件到本地仓库
+git commit -m "xxx" 将文件提交到仓库
+

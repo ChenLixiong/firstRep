@@ -1,2 +1,2 @@
-git is version controll tool
-git is very userful
+git is a distribute version controll tool
+git is very userful and greate well
