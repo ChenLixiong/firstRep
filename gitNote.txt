@@ -24,3 +24,35 @@ git remote set-url origin [新的url] 切换远程仓库
 git remote add origin [仓库路径] 关联远程仓库
 git push -u origin master 本地库中的所有内容推送到远程库上   -->第一次推送的时候需要 -u参数，
 																之后提交不需要-u参数，之后提交不
+git init [远程仓库url] 克隆远程仓库到本地仓库
+git push origin master 推送本地仓库带远程仓库
+git pull origin master 从远程仓库拉去到本地仓库
+
+git branch [分支名] 创建分支
+git checkout [分支名] 切换分支
+git checkout -b [分支名] 创建并切换分支
+git branch 列出所有分支 *表示当前所处分支
+git merge [分支名] 合并分支
+git branch -d [分支名] 删除分支
+git log --graph 查看分支合并图
+
+git stash	保存当前工作现场
+git stash list 查看工作现场
+git stash apply [stash号]  恢复工作现场		-->stash内容不会删除
+git stash drop   删除stash内容
+git stash pop    恢复工作现场		-->stash内容会删除
+
+git branch -D [分支名] 强制删除分支
+git remote 查看远程仓库 -v显示更详细的信息
+
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
